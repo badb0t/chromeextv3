@@ -1,0 +1,76 @@
+body {
+    line-height: 1.2;
+    font-size: 12px;
+}
+
+.datatablebd,
+.datatablepii {
+    min-width: 700px;
+}
+
+.divheader {
+    padding-top: 10px;
+    margin: 0px;
+}
+
+.divheader img,
+.divheader h4 {
+    vertical-align: middle;
+    display: inline;
+}
+
+.divheader h4 {
+    padding-left: 10px;
+}
+
+.divheaderoptions {
+    padding-left: 45px;
+}
+
+hr {
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+
+#searchfield {
+    font-size: 14px;
+    padding: 2px 4px;
+    line-height: 1;
+    height: 20;
+}
+
+.searchdiv {
+    margin-bottom: 5px !important
+}
+
+#wildcard {
+    margin-top: 0px;
+}
+
+.resultsdiv {
+    margin-top: 10px !important
+}
+
+#search-error {
+    color:crimson;
+}
+
+.dark-mode .divheaderoptions a {
+    color: white;
+}
+
+.dt-bootstrap4 .col-sm-12 {
+    width: 50%;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover,
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  -webkit-box-shadow: 0 0 0px 1000px #343a40 inset !important;
+}

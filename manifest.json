@@ -1,0 +1,32 @@
+{
+    "name": "badbot",
+    "description": "Search for BreachData or PIIData",
+    "author": "badc0d3",
+    "version": "1.0",
+    "manifest_version": 3,
+    "icons": {
+        "16": "images/b-logo-circle.png",
+        "48": "images/b-logo-circle.png",
+        "128": "images/b-logo-circle.png"
+    },
+    "permissions": [
+        "storage",
+        "activeTab",
+        "contextMenus",
+        "notifications"
+    ],
+    "action": {
+        "default_popup": "/pages/popup.html",
+        "default_icon": {
+            "16": "images/b-logo-circle.png",
+            "48": "images/b-logo-circle.png",
+            "128": "images/b-logo-circle.png"
+        }
+    },
+    "options_page": "/pages/options.html",
+    "host_permissions": [
+        "https://badbot.c0d3xploit.com/*",
+        "https://breach.c0d3xploit.com/*",
+        "https://breachdata.c0d3xploit.com/*"
+    ]
+}

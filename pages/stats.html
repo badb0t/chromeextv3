@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="/plugin/fontawesome-free/css/all.min.css">
+    <link rel="stylesheet" href="/css/toastr.min.css" />
+    <link rel="stylesheet" href="/css/adminlte.min.css">
+    <link rel="stylesheet" href="/css/popup.css">
+</head>
+
+<body class="dark-mode hold-transition">
+    <div class="wrapper">
+        <div class="content-wrapper">
+            <div class="content bdloading">
+                <div class="preloader flex-column justify-content-center align-items-center">
+                    <img class="animation__shake" src="/images/b-logo-circle.png" alt="" height="60" width="60">
+                </div>
+            </div>
+            
+            <div class="content bdinterface">
+                <div class="divheader">
+                    <img src="/images/b-logo-circle.png" alt="badbot" class="brand-image img-circle" width="30">
+                    <h4 class="header"></h4>
+
+                    <div class="form-group" style="position:absolute; top:10px; right: 10px;">
+                        <div class="custom-control custom-switch">
+                            <input type="checkbox" class="custom-control-input" id="darkmode">
+                            <label class="custom-control-label" for="darkmode" style="padding-top:5px">Dark Mode</label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="divheaderoptions">
+                    [
+                    <small><a href="/pages/popup.html" class="switchSearch">Search</a></small> |
+                    <small><a href="#" class="switchStats">Stats</a></small> |
+                    <small><a href="/pages/options.html" class="switchLogin" target="_blank">Settings</a></small>
+                    ]
+                </div>
+
+                <hr>
+                <div class="container-fluid">
+
+                    <div class="row">
+                        <div class="col-lg-3 col-12">
+                            <div class="small-box bg-info">
+                                <div class="inner">
+                                    <h3 id="total_breachdata_records"></h3>
+                                    <p>Total Breachdata Records</p>
+                                </div>
+                                <div class="icon">
+                                    <i class="ion ion-bag"></i>
+                                </div>
+                            </div>
+                        </div>
+            
+                        <div class="col-lg-3 col-12">
+                            <div class="small-box bg-info">
+                                <div class="inner">
+                                    <h3 id="total_breachdata_tables"></h3>
+                                    <p>Total Breachdata Databases</p>
+                                </div>
+                                <div class="icon">
+                                    <i class="ion ion-stats-bars"></i>
+                                </div>
+                            </div>
+                        </div>
+            
+                        <div class="col-lg-3 col-12">
+                            <div class="small-box bg-success">
+                                <div class="inner">
+                                    <h3 id="total_piidata_records"></h3>
+                                    <p>Total PII data Records</p>
+                                </div>
+                                <div class="icon">
+                                    <i class="ion ion-person-add"></i>
+                                </div>
+                            </div>
+                        </div>
+            
+                        <div class="col-lg-3 col-12">
+                            <div class="small-box bg-success">
+                                <div class="inner">
+                                    <h3 id="total_piidata_tables"></h3>
+                                    <p>Total PII data Databases</p>
+                                </div>
+                                <div class="icon">
+                                    <i class="ion ion-pie-graph"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <footer class="main-footer">
+            <!-- To the right -->
+            <div class="float-right d-none d-sm-inline">
+
+            </div>
+            <!-- Default to the left -->
+            <strong>Copyright &copy; 2021-<script>document.write(new Date().getFullYear())</script> 
+                <a class="mainsite" href="#">badbot</a>.</strong> All rights reserved. <a
+            class="terms" href="#">Terms of Use & Privacy Policy</a>
+        </footer>
+    </div>
+
+    <script src="/js/jquery.min.js"></script>
+    <script src="/js/bootstrap.bundle.min.js"></script>
+    <script src="/js/toastr.min.js"></script>
+    <script src="/js/adminlte.min.js"></script>
+    <script src="/js/responsive.bootstrap4.min.js"></script>
+    <script src="/js/stats.js"></script>
+</body>
+
+</html>
